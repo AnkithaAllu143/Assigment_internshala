@@ -1,0 +1,69 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #eee;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.contact-btn {
+  background: black;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 50px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-right h1 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-right p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #555;
+}
+
+
+.hero-dots-svg .dot {
+  fill: #222;
+  opacity: 0.8;
+}
